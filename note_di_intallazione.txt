@@ -1,0 +1,5 @@
+- una volta clonato il progetto, suddividere server e client
+- fare npm init o npm i nel progetto angular
+- avviare il server.js con node
+- avviare il progetto angular
+- perdere inutilmente tempo a vedere i messaggi alternarsi
