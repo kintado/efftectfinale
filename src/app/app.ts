@@ -21,12 +21,13 @@ export class App {
   intervalId: any = null;
 
   constructor() {
-    this.store.dispatch(loadMessage());
+    
 
     // Subscribe singolo
     this.store.pipe(select((state) => state.data.message)).subscribe((msg) => {
       this.message.set(msg);
     });
+  // this.store.dispatch(loadMessage());
   }
 
   nuovoMessaggio() {
